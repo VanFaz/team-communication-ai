@@ -1,0 +1,7 @@
+# Стабильный вариант для Windows: ASR через faster-whisper + diarization через pyannote 3.1.
+# Не устанавливает WhisperX, потому что актуальный WhisperX 3.8.x требует pyannote.audio>=4
+# и torchcodec, что часто ломается на Windows/CPU.
+# Устанавливать после requirements.txt.
+pyannote.audio==3.3.2
+huggingface_hub>=0.26.0,<1.0
+matplotlib>=3.9.0

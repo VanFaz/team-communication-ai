@@ -1,0 +1,2 @@
+# Рекомендуемый вариант для Windows.
+-r requirements_windows_diarization.txt

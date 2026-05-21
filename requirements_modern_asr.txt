@@ -1,0 +1,7 @@
+# Полностью современный WhisperX pipeline.
+# ВНИМАНИЕ: на Windows может требовать корректной установки torchcodec/FFmpeg.
+# Для стабильной установки на Windows лучше использовать requirements_windows_diarization.txt.
+whisperx>=3.8.0
+pyannote.audio>=4.0.0
+torchcodec>=0.6.0,<0.8.0
+huggingface_hub>=0.26.0
